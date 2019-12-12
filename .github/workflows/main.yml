@@ -1,6 +1,9 @@
 name: CI
 
-on: [push]
+on:
+  push:
+    branches:
+    - master
 
 jobs:
   build:
@@ -19,3 +22,5 @@ jobs:
       with:
         # Build directory to deploy
         build_dir: './build'
+    - name: GitHub Pages Deploy
+      uses: maxheld83/ghpages@v0.2.1
