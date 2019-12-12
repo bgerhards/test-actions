@@ -21,4 +21,4 @@ jobs:
       uses: maxheld83/ghpages@v0.2.1
       env:
         BUILD_DIR: "./build/"
-        key: "GH_PAT 
+        key: "GH_PAT"
